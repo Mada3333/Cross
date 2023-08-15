@@ -102,9 +102,6 @@ img {
   background-color: #FFAB00;
 }
 
-.c-hbg {
-  display: block;
-}
 .c-hbg__btn {
   display: flex;
   flex-direction: column;
