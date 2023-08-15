@@ -3,6 +3,7 @@
   @use '../../Foundation/variables'as v;
 
   .c-hbg__btn {
+    grid-column: 12 / 13;
       display: flex;
       flex-direction: column;
       justify-content: center;
