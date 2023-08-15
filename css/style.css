@@ -1,10 +1,33 @@
-html li {
+html {
+  font-family: "Noto Sans JP", sans-serif;
+  background-color: #DEEBFF;
+}
+li {
   list-style-type: none;
 }
-html a {
+
+a {
   display: inline-block;
+  color: #333;
 }
-html a:hover {
+a:hover {
   text-decoration: underline;
+}
+
+.c-button {
+  padding: 16px 32px;
+  border-radius: 1000px;
+  background-color: #fff;
+}
+.c-button--register {
+  padding: 16px 32px;
+  border-radius: 1000px;
+  background-color: #DEEBFF;
+}
+
+.c-button--download {
+  padding: 16px 32px;
+  border-radius: 1000px;
+  background-color: #FFAB00;
 }
 /*# sourceMappingURL=style.css.map */

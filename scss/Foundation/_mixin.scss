@@ -1,0 +1,9 @@
+@charset "utf-8";
+
+@use './variables' as v;
+
+@mixin btn ($color:#fff) {
+    padding: 16px 32px;
+    border-radius: 1000px;
+    background-color: $color;
+}

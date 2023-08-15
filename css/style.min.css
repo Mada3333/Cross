@@ -1,2 +1,2 @@
-html li{list-style-type:none}html a{display:inline-block}html a:hover{text-decoration:underline}
+html{font-family:"Noto Sans JP",sans-serif;background-color:#deebff}li{list-style-type:none}a{display:inline-block;color:#333}a:hover{text-decoration:underline}.c-button{padding:16px 32px;border-radius:1000px;background-color:#fff}.c-button--register{padding:16px 32px;border-radius:1000px;background-color:#deebff}.c-button--download{padding:16px 32px;border-radius:1000px;background-color:#ffab00}
 /*# sourceMappingURL=style.min.css.map */
