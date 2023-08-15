@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+.p-gnav {
+    grid-column: 10/13;
+    display: none;
+    align-items: center;
+    justify-self: end;
+
+    &__list {
+        display: flex;
+        gap: 16px;
+    
+     
+    }
+    &.active {
+        display: flex;
+    }
+}

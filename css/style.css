@@ -122,4 +122,18 @@ img {
 .c-section-title {
   font-size: 2rem;
 }
+
+.p-gnav {
+  grid-column: 10/13;
+  display: none;
+  align-items: center;
+  justify-self: end;
+}
+.p-gnav__list {
+  display: flex;
+  gap: 16px;
+}
+.p-gnav.active {
+  display: flex;
+}
 /*# sourceMappingURL=style.css.map */
