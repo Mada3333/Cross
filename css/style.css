@@ -33,6 +33,11 @@ img {
   background-color: #DEEBFF;
 }
 
+.l-wrapper {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
 .c-button {
   padding: 16px 32px;
   border-radius: 1000px;
