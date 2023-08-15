@@ -1,5 +1,8 @@
-@import './Foundation/base';
-@import './Foundation/mixin';
-@import './Foundation/variables';
+@use './Foundation/base';
+@use './Foundation/mixin';
+@use './Foundation/variables';
 
-@import './Object/Component/c-button';
+// Layout
+@use './Layout/header';
+
+@use './Object/Component/c-button';

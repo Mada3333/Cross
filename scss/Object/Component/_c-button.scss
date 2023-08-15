@@ -8,11 +8,11 @@
 
     @at-root{
         &--register {
-            @include m.btn($base-color-bule);
+            @include m.btn(v.$base-color-bule);
         }
 
         &--download {
-            @include m.btn($accent-color);
+            @include m.btn(v.$accent-color);
         }
     }
 }
