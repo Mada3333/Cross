@@ -25,6 +25,14 @@ img {
   display: block;
 }
 
+.l-header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 9;
+  background-color: #DEEBFF;
+}
+
 .c-button {
   padding: 16px 32px;
   border-radius: 1000px;
