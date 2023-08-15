@@ -6,6 +6,10 @@ html {
     background-color: $base-color-bule;
     color: $text-color;
 
+    li {
+        list-style-type: none;
+    }
+
     a {
         display: inline-block;
         color: $text-color;
