@@ -38,6 +38,12 @@ img {
   margin: 0 auto;
 }
 
+.l-row {
+  display: grid;
+  grid-template-columns: repeat(12, 56px);
+  gap: 24px;
+}
+
 .c-button {
   padding: 16px 32px;
   border-radius: 1000px;
@@ -53,5 +59,9 @@ img {
   padding: 16px 32px;
   border-radius: 1000px;
   background-color: #FFAB00;
+}
+
+.c-section-title {
+  font-size: 2rem;
 }
 /*# sourceMappingURL=style.css.map */
