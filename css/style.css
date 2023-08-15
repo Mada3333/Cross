@@ -2,6 +2,10 @@ html {
   font-family: "Noto Sans JP", sans-serif;
   background-color: #DEEBFF;
 }
+body {
+  color: #333;
+}
+
 li {
   list-style-type: none;
 }
@@ -9,9 +13,16 @@ li {
 a {
   display: inline-block;
   color: #333;
+  text-decoration: none;
 }
 a:hover {
   text-decoration: underline;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
 
 .c-button {
