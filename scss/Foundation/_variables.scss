@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+//色の宣言
+$base-color-bule:#DEEBFF;
+$base-color-white:#f8f8f8;
+$main-color-blue:#20A7ED;
+$accent-color:#FFAB00;
+$text-color:#333;
+
+//テキストサイズの宣言
+$title:calc(128 / 16 * 1rem);
+$subtitle:calc(40 /16 * 1rem);
+$lead:calc(32 / 16 * 1rem);
+$sublead:calc(24 / 16 * 1rem);
+$description:calc(16 / 16 * 1rem);
