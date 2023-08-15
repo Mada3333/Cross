@@ -9,5 +9,39 @@
     top: 0;
     z-index: 9;
     background-color: v.$base-color-bule;
+    padding: 32px 0;
+
+    &__logo {
+
+        a{
+            display: flex;
+            gap: 16px;
+            align-items: center;
+            grid-column: 1/3;
+            font-weight: normal;
+
+            img {
+                width: 60px;
+            }
+        }
+    }
+
+    .hbg {
+        display: none;
+    }
+
+    .gnav {
+        grid-column: 10/13;
+        display: flex;
+        align-items: center;
+        justify-self: end;
+
+        &__list {
+            display: flex;
+            gap: 16px;
+        
+         
+        }
+    }
 }
 
