@@ -34,14 +34,15 @@ img {
 }
 
 .l-wrapper {
-  max-width: 1280px;
+  max-width: 1440px;
   margin: 0 auto;
+  padding: 0 32px;
 }
 
 .l-row {
   display: grid;
-  grid-template-columns: repeat(12, 56px);
-  gap: 24px;
+  grid-template-columns: repeat(12, minmax(auto, 1fr));
+  gap: 16px;
 }
 
 .c-button {

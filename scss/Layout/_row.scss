@@ -2,6 +2,6 @@
 
 .l-row {
     display: grid;
-    grid-template-columns: repeat(12, 56px);
-    gap: 24px;
+    grid-template-columns: repeat(12, minmax(auto,1fr));
+    gap: 16px;
 }
