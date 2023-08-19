@@ -97,6 +97,20 @@ img {
   background-size: cover;
   background-position: center center;
 }
+.p-topview__img {
+  grid-column: 1/16;
+  width: 100%;
+  order: 1;
+}
+.p-topview__text {
+  grid-column: 1/16;
+  width: 100%;
+  order: 2;
+}
+.p-topview__logo {
+  display: flex;
+  gap: 32px;
+}
 
 .p-gnav {
   grid-column: 10/13;

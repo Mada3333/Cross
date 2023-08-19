@@ -7,4 +7,21 @@
     background-image: url(../../../img/rectangle-blue.svg);
     background-size: cover;
     background-position: center center;
+
+    &__img {
+        grid-column: 1/16;
+        width: 100%;
+        order: 1;
+    }
+
+    &__text {
+        grid-column: 1/16;
+        width: 100%;
+        order:2;
+    }
+
+    &__logo {
+        display: flex;
+        gap: 32px;
+    }
 }
