@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+@use '../../Foundation/variables' as v;
+@use '../../Foundation/mixin' as m;
+
+.p-coop {
+    padding: 46px 0;
+    background-color: v.$main-color-blue;
+    overflow-x: scroll;
+}

@@ -165,4 +165,10 @@ img {
 .p-hbg.is-active {
   left: 0;
 }
+
+.p-coop {
+  padding: 46px 0;
+  background-color: #20A7ED;
+  overflow-x: scroll;
+}
 /*# sourceMappingURL=style.css.map */
