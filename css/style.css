@@ -92,6 +92,10 @@ img {
   font-size: 2rem;
 }
 
+.p-topview {
+  background-image: url(../../../img/rectangle-blue.svg);
+}
+
 .p-gnav {
   grid-column: 10/13;
   display: none;
