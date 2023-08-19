@@ -94,6 +94,8 @@ img {
 
 .p-topview {
   background-image: url(../../../img/rectangle-blue.svg);
+  background-size: cover;
+  background-position: center center;
 }
 
 .p-gnav {
