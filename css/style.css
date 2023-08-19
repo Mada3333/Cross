@@ -95,6 +95,10 @@ img {
   font-size: 2rem;
 }
 
+.c-card {
+  width: 100%;
+}
+
 .p-topview {
   background-image: url(../../../img/rectangle-blue.svg);
   background-size: cover;
@@ -170,5 +174,9 @@ img {
   padding: 46px 0;
   background-color: #20A7ED;
   overflow-x: scroll;
+}
+.p-coop__container {
+  grid-column: 1/13;
+  display: flex;
 }
 /*# sourceMappingURL=style.css.map */

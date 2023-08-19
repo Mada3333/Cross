@@ -7,4 +7,9 @@
     padding: 46px 0;
     background-color: v.$main-color-blue;
     overflow-x: scroll;
+
+    &__container {
+        grid-column: 1/13;
+        display: flex;
+    }
 }
