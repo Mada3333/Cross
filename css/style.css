@@ -60,17 +60,20 @@ img {
   padding: 16px 32px;
   border-radius: 1000px;
   background-color: #fff;
+  display: inline-block;
 }
 .c-button--register {
   padding: 16px 32px;
   border-radius: 1000px;
   background-color: #DEEBFF;
+  display: inline-block;
 }
 
 .c-button--download {
   padding: 16px 32px;
   border-radius: 1000px;
   background-color: #FFAB00;
+  display: inline-block;
 }
 
 .c-hbg__btn {
@@ -125,6 +128,9 @@ img {
 .p-topview__logo__icon {
   order: 1;
   width: 70px;
+}
+.p-topview__description {
+  word-break: keep-all;
 }
 
 .p-gnav {

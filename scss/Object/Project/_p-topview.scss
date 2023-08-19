@@ -41,4 +41,8 @@
             width: 70px;
         }
     }
+
+    &__description {
+        word-break: keep-all;
+    }
 }
