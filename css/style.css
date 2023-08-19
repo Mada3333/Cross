@@ -106,10 +106,20 @@ img {
   grid-column: 1/16;
   width: 100%;
   order: 2;
+  text-align: center;
 }
 .p-topview__logo {
   display: flex;
   gap: 32px;
+  align-items: center;
+}
+.p-topview__logo__title {
+  order: 2;
+  font-size: 4rem;
+}
+.p-topview__logo__icon {
+  order: 1;
+  width: 70px;
 }
 
 .p-gnav {

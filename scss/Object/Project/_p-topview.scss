@@ -18,10 +18,22 @@
         grid-column: 1/16;
         width: 100%;
         order:2;
+        text-align: center;
     }
 
     &__logo {
         display: flex;
         gap: 32px;
+        align-items: center;
+
+        &__title {
+            order:2;
+            font-size: calc(64 /16 *1rem);
+        }
+        
+        &__icon {
+            order:1;
+            width: 70px;
+        }
     }
 }
