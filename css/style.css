@@ -96,26 +96,31 @@ img {
   background-image: url(../../../img/rectangle-blue.svg);
   background-size: cover;
   background-position: center center;
+  padding: 60px 0;
 }
 .p-topview__img {
-  grid-column: 1/16;
+  grid-column: 1/13;
   width: 100%;
   order: 1;
 }
 .p-topview__text {
-  grid-column: 1/16;
+  grid-column: 1/13;
   width: 100%;
   order: 2;
   text-align: center;
+  display: grid;
+  gap: 32px;
 }
 .p-topview__logo {
   display: flex;
   gap: 32px;
   align-items: center;
+  justify-content: center;
 }
 .p-topview__logo__title {
   order: 2;
   font-size: 4rem;
+  font-weight: normal;
 }
 .p-topview__logo__icon {
   order: 1;

@@ -7,28 +7,33 @@
     background-image: url(../../../img/rectangle-blue.svg);
     background-size: cover;
     background-position: center center;
+    padding: 60px 0;
 
     &__img {
-        grid-column: 1/16;
+        grid-column: 1/13;
         width: 100%;
         order: 1;
     }
 
     &__text {
-        grid-column: 1/16;
+        grid-column: 1/13;
         width: 100%;
         order:2;
         text-align: center;
+        display: grid;
+        gap: 32px;
     }
 
     &__logo {
         display: flex;
         gap: 32px;
         align-items: center;
+        justify-content: center;
 
         &__title {
             order:2;
             font-size: calc(64 /16 *1rem);
+            font-weight: normal;
         }
         
         &__icon {
